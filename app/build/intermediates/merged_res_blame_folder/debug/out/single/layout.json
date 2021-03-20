@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/ajaysingsys/Documents/ProjectCode/LiveData/MVVMCleanArch/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_news.xml",
+        "source": "/Users/ajaysingsys/Documents/ProjectCode/LiveData/MVVMCleanArch/app/src/main/res/layout/fragment_news.xml"
+    },
+    {
+        "merged": "/Users/ajaysingsys/Documents/ProjectCode/LiveData/MVVMCleanArch/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/ajaysingsys/Documents/ProjectCode/LiveData/MVVMCleanArch/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ajaysingsys/Documents/ProjectCode/LiveData/MVVMCleanArch/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_saved_news.xml",
+        "source": "/Users/ajaysingsys/Documents/ProjectCode/LiveData/MVVMCleanArch/app/src/main/res/layout/fragment_saved_news.xml"
+    },
+    {
+        "merged": "/Users/ajaysingsys/Documents/ProjectCode/LiveData/MVVMCleanArch/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_info.xml",
+        "source": "/Users/ajaysingsys/Documents/ProjectCode/LiveData/MVVMCleanArch/app/src/main/res/layout/fragment_info.xml"
+    },
+    {
+        "merged": "/Users/ajaysingsys/Documents/ProjectCode/LiveData/MVVMCleanArch/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/news_list_item.xml",
+        "source": "/Users/ajaysingsys/Documents/ProjectCode/LiveData/MVVMCleanArch/app/src/main/res/layout/news_list_item.xml"
+    }
+]
