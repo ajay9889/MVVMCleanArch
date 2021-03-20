@@ -43,7 +43,7 @@ android {
 dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     def lifecycle_version = "2.3.0"
-
+    def paging_version = "2.1.2"
     def retrofit_version = "2.9.0"
     def Interceptor_version = '5.0.0-alpha.2'
     //noinspection GradleDependency
@@ -86,7 +86,11 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.12.0'
 
-    implementation 'com.squareup.okhttp3:logging-interceptor:4.2.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2'
+
+
+    implementation "androidx.paging:paging-runtime:$paging_version" // For Kotlin use paging-runtime-ktx
+
 
 
 }

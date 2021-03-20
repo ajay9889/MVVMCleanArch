@@ -23,6 +23,7 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ajaysingsy
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/a475543cee1a1b6a2a5a848c32994108/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:hilt-android:2.33-beta] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/0c8e855c9fea62d481398eed0357db40/jetified-hilt-android-2.33-beta/AndroidManifest.xml:16:1-19:12
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/1d0c00f074099604d104b27b2bbd7698/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.paging:paging-runtime:2.1.2] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/0d2064414ec46808c6e46f35194f09bb/paging-runtime-2.1.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/d61eab9c2d4dc8ab6e8205f0fbe245a4/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/a021d210738725600801f1f72f8ce2ec/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/2b7d6a373cea7843d8dada5e4e943ac5/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -177,6 +178,8 @@ MERGED from [com.google.dagger:hilt-android:2.33-beta] /Users/ajaysingsys/.gradl
 MERGED from [com.google.dagger:hilt-android:2.33-beta] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/0c8e855c9fea62d481398eed0357db40/jetified-hilt-android-2.33-beta/AndroidManifest.xml:18:3-42
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/1d0c00f074099604d104b27b2bbd7698/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/1d0c00f074099604d104b27b2bbd7698/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.paging:paging-runtime:2.1.2] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/0d2064414ec46808c6e46f35194f09bb/paging-runtime-2.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.1.2] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/0d2064414ec46808c6e46f35194f09bb/paging-runtime-2.1.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/d61eab9c2d4dc8ab6e8205f0fbe245a4/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/d61eab9c2d4dc8ab6e8205f0fbe245a4/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ajaysingsys/.gradle/caches/transforms-2/files-2.1/a021d210738725600801f1f72f8ce2ec/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44

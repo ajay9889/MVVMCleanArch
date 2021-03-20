@@ -1,41 +1,25 @@
 package com.anushka.newsapiclient.presentation.adapter
-
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.anushka.newsapiclient.data.model.Article
 import com.anushka.newsapiclient.databinding.NewsListItemBinding
 import com.bumptech.glide.Glide
-
-class NewsAdapter : RecyclerView.Adapter<NewsAdapter.newViewHolder>() {
-
-    private val callBacks = object : DiffUtil.ItemCallback<Article>(){
-        override fun areItemsTheSame(oldItem: Article, newItem: Article): Boolean {
-            return oldItem.url  == newItem.url
-        }
-
-        override fun areContentsTheSame(oldItem: Article, newItem: Article): Boolean {
-            return oldItem  == newItem
-        }
-
-    }
+class NewsAdapter : PagedListAdapter<Article, NewsAdapter.newViewHolder>(callBacks) {
 
     val differ = AsyncListDiffer(this, callBacks);
-
-
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): newViewHolder {
         val binding = NewsListItemBinding.inflate(LayoutInflater.from(parent.context),  parent,false)
         return newViewHolder(binding);
     }
-
     override fun onBindViewHolder(holder: newViewHolder, position: Int) {
         val article = differ.currentList[position]
         holder.bind(article)
     }
-
     override fun getItemCount(): Int {
       return differ.currentList.size
     }
@@ -55,6 +39,17 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.newViewHolder>() {
                 .into(binding.ivArticleImage)
 
 
+        }
+    }
+
+    companion object {
+        private val callBacks = object : DiffUtil.ItemCallback<Article>(){
+            override fun areItemsTheSame(oldItem: Article, newItem: Article): Boolean {
+                return oldItem.url  == newItem.url
+            }
+            override fun areContentsTheSame(oldItem: Article, newItem: Article): Boolean {
+                return oldItem  == newItem
+            }
         }
     }
 
