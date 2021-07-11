@@ -12,9 +12,7 @@ import dagger.hilt.components.SingletonComponent
 
 class UseCaseModule {
     @Provides
-    fun provideGetNewsHeadLinesUseCase(
-        newsRepository: NewsRepository
-    ): GetNewsHeadLineUseCase{
+    fun provideGetNewsHeadLinesUseCase( newsRepository: NewsRepository ): GetNewsHeadLineUseCase{
         return GetNewsHeadLineUseCase(newsRepository)
     }
 }

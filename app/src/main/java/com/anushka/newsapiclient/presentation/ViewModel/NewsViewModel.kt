@@ -9,9 +9,13 @@ import android.os.Build
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import androidx.paging.Pager
+import androidx.paging.PagingConfig
+import androidx.paging.cachedIn
 import com.anushka.newsapiclient.data.model.APIResponse
 import com.anushka.newsapiclient.data.util.Resource
 import com.anushka.newsapiclient.domain.usecase.GetNewsHeadLineUseCase
+import com.anushka.newsapiclient.presentation.pagingsource.NewsPagingSource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
@@ -19,6 +23,10 @@ class NewsViewModel (
     private val app: Application,
     private val getNewsHeadLineUseCase: GetNewsHeadLineUseCase
 ) : AndroidViewModel(app) {
+
+    val flow = Pager(PagingConfig(pageSize = 20)) {
+        NewsPagingSource(getNewsHeadLineUseCase , "us")
+    }.flow.cachedIn(viewModelScope)
 
     val newsHeadLines: MutableLiveData<Resource<APIResponse>> = MutableLiveData();
 

@@ -6,10 +6,8 @@ import com.anushka.newsapiclient.data.repository.datasourceimpl.NewsRemoteDataSo
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.internal.managers.ApplicationComponentManager
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
-// new remote data source
 @Module
 @InstallIn(SingletonComponent::class)
 class RemoteDataModule {
